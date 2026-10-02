@@ -1,0 +1,13 @@
+name = "pr-push"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+account_id = "b6c41e4a900a8aeb327460af7e0f6df1"
+
+[[durable_objects.bindings]]
+name = "HUB"
+class_name = "Hub"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Hub"]
